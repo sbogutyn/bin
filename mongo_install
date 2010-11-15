@@ -1,0 +1,8 @@
+#!/bin/bash	
+sudo apt-get -y install tcsh git-core scons g++ libpcre++-dev libboost-dev libreadline-dev xulrunner-dev libboost-program-options-dev libboost-thread-dev libboost-filesystem-dev libboost-date-time-dev	
+git clone git://github.com/mongodb/mongo.git
+
+echo Wybierz stabilna galaz mongo	
+echo Np git chektout r1.4.1
+echo Nastepnie zbuduj przez: scons all
+echo i zainstaluj scons --prefix=/opt/mongo install
