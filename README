@@ -1,0 +1,5 @@
+dotfiles_install - instaluje podstawową konfigurację basha, aliasy itp
+dotvim_install - moja konfiguracja vima
+gnome.sh - instalacja gnome na ubuntu server
+lein.sh - dla clojure
+mongo_install - instalacja mongo (nie kompletna - dokończyć)
